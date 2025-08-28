@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 1rem;
+        background: pink;
+        height: 4rem;
+        color: black;
+        }
+        h1{
+            font-size:25px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        body {
+            padding: 4px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pseudo-classes</h1>
+        <nav><a href="index.html">Voltar ao início</a></nav>
+    </header>
+    <main>
+        <h4>First-child</h4>
+        <p>Estiliza apenas o primeiro H1.</p>
+
+        <h4>Last-child</h4>
+        <p>Estiliza apenas o último H1.</p>
+
+        <h4>Nth-child</h4>
+        <p>O númer do filho, coloca entre parenteses o número.
+            Exemplo: Nth-child(2)
+        </p>
+
+        <h4>Nth-of-type</h4>
+        <p>Tem o mesmo efeito que o Nth-child.</p>
+    </main>
+    
+</body>
+</html>
